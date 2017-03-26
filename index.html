@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Bootstrap</title>
+
+  <!-- BOOTSTRAP LINKS -->
+<link src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+<script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+
+
+<!--FONT AWESOME -->
+<script src="https://use.fontawesome.com/5fb75fa555.js"></script>
+
+<!-- LINKING MY JAVASCRIPT AND CSS PAGES -->
+<script type="text/javascript" src="script.js"></script>
+<link rel="stylesheet" type="text/css" href="stylesheet.css">
+
+</head>
+<body data-spy="scroll" data-target=".navbar" data-offset="20">
+
+<!-- NAVBAR -->
+    <nav class="navbar navbar-toggleable-md navbar-light bg-faded fixed-top">
+       <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button> 
+      <a class="navbar-brand" href="#">MyApp</a>
+
+      <!-- scrollspy clickables -->
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="section1">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="section2">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="section3">Download MyApp</a>
+          </li>
+        </ul>
+
+        <!-- LOGIN SECTION -->
+        <form class="form-inline my-2 my-lg-0">
+          <input class="form-control mr-sm-2" type="text" placeholder="Email">
+        </form>
+        <form class="form-inline my-2 my-lg-0">
+          <input class="form-control mr-sm-2" type="password" placeholder="Password">
+          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Login</button>
+        </form>
+
+      </div>
+    </nav>
+      
+
+
+
+  <!-- PAGE SECTIONS -->
+
+  <!-- Jumbotron -->
+    <div class="jumbotron text-center" id="section1">
+        <h1 class="display-3">My Awesome App!</h1>
+
+        <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
+
+        <hr class="my-4">
+
+        <p>Want to stay up-to-date? Join our mailing list!</p>
+
+        <button type="button" class="btn">Sign Up</button>
+    </div>
+
+
+<!-- Summary for first page -->
+    <div class="text-center">
+      <h2> This is why you should download my app </h2>
+        <p></p>
+    </div>
+
+
+<!-- cards -->
+
+  <div class="section" id="section2"></div>
+    <div class="row">
+  <div class="col-sm-6">
+    <div class="card">
+      <div class="card-block">
+        <h3 class="card-title">Special title treatment</h3>
+        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+        <a href="#" class="btn btn-primary">Go somewhere</a>
+      </div>
+    </div>
+  </div>
+  <div class="col-sm-6">
+    <div class="card">
+      <div class="card-block">
+        <h3 class="card-title">Special title treatment</h3>
+        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+        <a href="#" class="btn btn-primary">Go somewhere</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+  <div class="section" id="section3"></div>
+ 
+
+</body>
+</html>

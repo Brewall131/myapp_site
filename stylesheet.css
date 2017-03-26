@@ -1,0 +1,21 @@
+.jumbotron {
+	height: 400px;
+	background-image: url('pictures/tikihutmoreopaque.jpg');
+	background-size: cover;
+	background-repeat:  no-repeat;
+}
+
+.btn {
+	margin-top: 20px;
+	box-shadow:  4px 4px 4px rgba(0, 0, 0, 0.4);
+	border:  1px solid #a8a8a8;
+	background: linear-gradient(#ededed, #d3d3d3);
+	color: black;
+}
+
+.btn:active {
+	box-shadow:  4px 4px 4px rgba(0, 0, 0, 0.4);
+	border:  1px solid #a8a8a8;
+	background: linear-gradient(#ededed, #d3d3d3);
+	color: black;
+}

@@ -19,7 +19,7 @@
 <link rel="stylesheet" type="text/css" href="stylesheet.css">
 
 </head>
-<body data-spy="scroll" data-target=".navbar" data-offset="20">
+<body data-spy="scroll" data-target=".navbar" data-offset="0">
 
 <!-- NAVBAR -->
     <nav class="navbar navbar-toggleable-md navbar-light bg-faded fixed-top">
@@ -33,13 +33,13 @@
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav mr-auto">
           <li class="nav-item active">
-            <a class="nav-link" href="section1">Home <span class="sr-only">(current)</span></a>
+            <a class="nav-link" href="#section1">Home <span class="sr-only">(current)</span></a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="section2">About</a>
+            <a class="nav-link" href="#section2">About</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="section3">Download MyApp</a>
+            <a class="nav-link" href="#section3">Download MyApp</a>
           </li>
         </ul>
 
@@ -62,51 +62,83 @@
 
   <!-- Jumbotron -->
     <div class="jumbotron text-center" id="section1">
-        <h1 class="display-3">My Awesome App!</h1>
+        <h1 class="display-3">MyApp!</h1>
 
-        <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
+        <p class="lead">Use psychology to book your perfect vacation!</p>
 
         <hr class="my-4">
 
         <p>Want to stay up-to-date? Join our mailing list!</p>
 
-        <button type="button" class="btn">Sign Up</button>
+         <!-- <form class="form-inline"> -->
+           <!-- <div class="form-group"> -->
+                <input type="email" class="form-control" id="email" placeholder="Email Address">
+                <button type="submit" class="btn">Sign Up</button>
+            </div>
+          </form>
+
     </div>
 
 
 <!-- Summary for first page -->
-    <div class="text-center">
-      <h2> This is why you should download my app </h2>
-        <p></p>
+    <div class="text-center" id="lowerhalf">
+      <h2> We all want the perfect vacation, but that differs for each of us </h2>
+        <p>simplify the planning, and have the best vacation of your life</p>
     </div>
 
 
 <!-- cards -->
+<div class="container-fluid">
 
-  <div class="section" id="section2"></div>
-    <div class="row">
-  <div class="col-sm-6">
-    <div class="card">
-      <div class="card-block">
-        <h3 class="card-title">Special title treatment</h3>
-        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-        <a href="#" class="btn btn-primary">Go somewhere</a>
+<!-- Cards section -->
+<div class="section" id="section2">
+  <div class="row" style="margin: auto;">
+    <div class="col-sm-4">
+      <div class="card" style="width: 20rem;">
+       <img class="card-img-top" src="pictures/girl.jpg" alt="Card image cap">
+        <div class="card-block">
+          <h4 class="card-title">Card title</h4>
+          <p class="card-text">Something about humans having unique personalities.</p>
+          <a href="#" class="btn btn-primary">Go somewhere</a>
+        </div>
       </div>
     </div>
-  </div>
-  <div class="col-sm-6">
-    <div class="card">
-      <div class="card-block">
-        <h3 class="card-title">Special title treatment</h3>
-        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-        <a href="#" class="btn btn-primary">Go somewhere</a>
+    <div class="col-sm-4">
+      <div class="card" style="width: 20rem;">
+       <img class="card-img-top" src="pictures/plane .jpg" alt="Card image cap">
+        <div class="card-block">
+          <h4 class="card-title">Card title</h4>
+          <p class="card-text">Something about why we travel for our personal growth </p>
+          <a href="#" class="btn btn-primary">Go somewhere</a>
+        </div>
+      </div>
+    </div>
+    <div class="col-sm-4">
+      <div class="card" style="width: 20rem;">
+       <img class="card-img-top" src="pictures/cup.jpg" alt="Card image cap">
+        <div class="card-block">
+          <h4 class="card-title">Card title</h4>
+          <p class="card-text">Something about perfectly curated vacations.</p>
+          <a href="#" class="btn btn-primary">Go Somewhere</a>
+        </div>
       </div>
     </div>
   </div>
 </div>
 
+<!-- last section -->
 
-  <div class="section" id="section3"></div>
+<div class="section" id="section3">
+  <div id="blurb" class="text-center">
+    <h3> Download the App! </h3>
+      <p>Set off on your perfectly tailored vacation </p>
+      <img id="appstore" src="pictures/appstore.png">
+  </div>
+</div>
+
+
+</div> <!-- container fluid ending -->
+
  
 
 </body>

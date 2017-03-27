@@ -1,12 +1,25 @@
 .jumbotron {
 	height: 400px;
+	margin-top: 40px;
+	/*text-align: center;*/
 	background-image: url('pictures/tikihutmoreopaque.jpg');
 	background-size: cover;
 	background-repeat:  no-repeat;
 }
 
+form {
+	display:  inline-block;
+}
+
+.form-control{
+	display:  inline-block;
+}
+
+#email{
+	width: 300px;
+}
+
 .btn {
-	margin-top: 20px;
 	box-shadow:  4px 4px 4px rgba(0, 0, 0, 0.4);
 	border:  1px solid #a8a8a8;
 	background: linear-gradient(#ededed, #d3d3d3);
@@ -18,4 +31,45 @@
 	border:  1px solid #a8a8a8;
 	background: linear-gradient(#ededed, #d3d3d3);
 	color: black;
+}
+
+#lowerhalf {
+	height: 250px;
+}
+
+img.card-img-top {
+	width: 20rem;
+}
+
+#section2 {
+	padding:  50px;
+}
+
+#section3 {
+	width: 100%;
+	height: 640px;
+	background-image: url('pictures/ocean.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+#blurb {
+	/*display:  block;
+	position:  absolute;*/
+	width: 400px;
+	margin: 0 auto;
+	background: rgba(255, 255, 255, 0.8);
+	padding:  20px;
+	border-radius: 2px;
+	margin-top: 300px;
+	color: black;
+}
+
+#appstore {
+	width: 200px;
+}
+
+.container-fluid {
+	margin:  0;
+	padding:  0;
 }
